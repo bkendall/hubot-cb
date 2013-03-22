@@ -1,6 +1,6 @@
 # Hubot-CB
 
-This is a version of GitHub's <strike>Campfire</strike> HipChat bot, hubot. He's pretty cool.<br>
+This is a version of GitHub's <del>Campfire</del> HipChat bot, hubot. He's pretty cool.<br>
 He’s meant to be ConferenceBadge’s slave.
 
 This version is designed to be deployed on [Heroku][heroku].
