@@ -121,9 +121,9 @@ class Poll
       msg.send "#{user.name} voted “#{votedAnswer.text}”"
 
     # Close poll if all users have voted
-    return if votersCount < @robot.brain.data.users.length - 1
-    msg.send "It looks like all users casted their vote. Automatically closing this poll."
-    this.endPoll(msg)
+    # return if votersCount < @robot.brain.data.users.length - 1
+    # msg.send "It looks like all users casted their vote. Automatically closing this poll."
+    # this.endPoll(msg)
 
 module.exports = (robot) ->
   new Poll(robot)
