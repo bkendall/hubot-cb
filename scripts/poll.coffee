@@ -96,7 +96,7 @@ class Poll
     return msg.send("There are only #{@poll.answers.length} answers.") if number > @poll.answers.length
 
     # User already voted
-    if (userAnswer = @poll.voters[user.id]) != undefined
+    if (userAnswer = @poll.voters[user.name]) != undefined
       sorry = "Sorry #{user.name}, but you’ve already "
       if userAnswer is 0
         sorry += 'cancelled your vote for this poll.'
@@ -106,7 +106,7 @@ class Poll
       return msg.send(sorry)
 
     # Save user vote
-    @poll.voters[user.id] = number
+    @poll.voters[user.name] = number
     votersCount = Object.keys(@poll.voters).length
 
     # Cancel vote
