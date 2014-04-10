@@ -17,7 +17,7 @@
 # Notes:
 #   $ hubot poll How cool is that? -a Amazeballz, Very Nice, Nice, Boring
 #   $ hubot vote 1
-#   $ hubot end vote
+#   $ hubot end poll
 #   $ hubot previous poll
 #
 # Author:
