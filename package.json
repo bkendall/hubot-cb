@@ -18,7 +18,7 @@
     "hubot":         "2.7.3",
     "hubot-scripts": "2.5.13",
     "hubot-hipchat": "2.6.4",
-    "hubot-djif":    "0.1.1",
+    "hubot-djif":    "0.1.2",
     "optparse":      "1.0.3"
   },
 
